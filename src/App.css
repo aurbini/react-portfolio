@@ -36,3 +36,85 @@
     transform: rotate(360deg);
   }
 }
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("./assets/white-waves.png");
+
+}
+#navbar{ 
+   background-color: #eeeeee;
+   border: #dddddd 1px solid; 
+}
+#wrapper {
+   min-height: 96vh;
+   position: relative; 
+}
+.main-header { 
+  background-color: #4aaaa5;
+  color: #ffffff; 
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+h1 { 
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  color: #4aaaa5
+}
+.banner-text {
+  font-size: 25px; 
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+  padding-top: 10px;
+}
+#nav-links {
+  padding-top: 10px;
+}
+#overrideHeight {
+  height: 100px !important; 
+}
+.port-pic {
+  max-height: 300px; 
+}
+#footer {
+  background-color: #666666;
+  position: absolute; 
+  padding-top: 30px; 
+  width: 100%; 
+  bottom: 0px; 
+}
+#footerB {
+  background-color: #666666;
+  position: absolute; 
+  padding-top: 30px; 
+  width: 100%; 
+}
+.banner {
+  height: 30%;
+  padding:6%; 
+}
+h1#nav-header {
+  margin-bottom: 0px;
+}
+#container { 
+  padding-top: 20px;
+  background-color: #ffffff;
+  border-color: #dddddd;
+  margin: auto; 
+  padding-bottom: 20px; 
+  padding-top: 10px; 
+  border: #eeeeee 1px solid;
+  margin-top: 30px;
+}
+.img-container {
+  margin-bottom: 20px;
+}
+.link {
+  margin-top: 10px;
+}
+.banner-color {
+  width: 100%; 
+  padding-left: 0px;
+  padding-right: 0px;
+}
