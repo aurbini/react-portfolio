@@ -82,13 +82,14 @@ a:hover {
   position: absolute; 
   padding-top: 30px; 
   width: 100%; 
-  bottom: 0px; 
+  bottom: 0; 
 }
 #footerB {
   background-color: #666666;
   position: absolute; 
   padding-top: 30px; 
   width: 100%; 
+  bottom: 0; 
 }
 .banner {
   height: 30%;
@@ -117,4 +118,12 @@ h1#nav-header {
   width: 100%; 
   padding-left: 0px;
   padding-right: 0px;
+}
+.wrapper {
+  position: relative; 
+  height: 100%; 
+}
+.card-img {
+  min-height: 325px;
+  margin-bottom: 5px; 
 }

@@ -36,7 +36,7 @@ function Navbar() {
                 </li>
             <li class="list-inline-item ml-3 text-white">
               <Link 
-                to="/form"
+                to="/contact"
                 className={ window.location.pathname==="/contact" || window.location.pathname ==="/contact"
                   ? "nav-link active"
                   : "nav-link"
