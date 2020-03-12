@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Contact = () => {
   return (
-    <div class="container form-main-content bg-light">
+    <div id="wrapper" class=" container form-main-content bg-light">
             <h1 class="pt-3 mt-4">Contact</h1>
-            <form>
+            <form class="contact-form"> 
                 <div class="form-group">
                     <label for="exampleInputEmail1">Name</label>
                     <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="John Smith" />
