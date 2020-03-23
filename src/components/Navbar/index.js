@@ -15,7 +15,7 @@ function Navbar() {
             <li id="link" class="list-inline-item text-white">
               <Link 
                 to="/"
-                className={ window.location.pathname==="/" || window.location.pathname ==="/about"
+                className={ window.location.pathname==="/about" || window.location.pathname ==="/about"
                   ? "nav-link active"
                   : "nav-link"
                 }
